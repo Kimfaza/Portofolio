@@ -1,16 +1,23 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React.js and Bootstrap to showcase my profile, skills, projects, work experience, achievements, and organizational activities as a Web Developer
 
-Currently, two official plugins are available:
+This website features a responsive and user-friendly interface, providing visitors with an overview of my background, technical skills, and development projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- React.js – Building reusable and component-based UI
+- Bootstrap – Creating responsive layouts and styling
+- CSS3 – Custom styling and visual enhancements
+- JavaScript – Adding interactive functionality
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive navigation bar
+- Hero section with personal introduction
+- About Me section
+- Skills and technical expertise
+- Project showcase
+- Work experience
+- Achievements and organizational experience
+- Contact information
