@@ -7,7 +7,7 @@ const organizations = [
     description:
       "Bertanggung jawab mengelola ratusan anggota aktif AMCC di Universitas Amikom Yogyakarta serta menjadi instruktur Web Frontend dengan memberikan materi dan membimbing anggota dalam mempelajari HTML, CSS, JavaScript, Tailwind CSS dan pengembangan website.",
     activities: ["Teamwork", "Communication", "Event Management"],
-    photo: "src/assets/amcc.jpg",
+    photo: "/images/amcc.jpg",
   },
 ];
 

@@ -5,7 +5,7 @@ const achievements = [
     year: "November 2024",
     description:
       "Berhasil meraih peringkat 5 besar dalam kompetisi UI/UX MAGE X ITS melalui perancangan UI/UX aplikasi NaviSmart, sebuah aplikasi berbasis Smart City yang dirancang untuk membantu penyandang tunanetra dalam mengakses informasi dan layanan publik dengan lebih mudah, serta dapat digunakan oleh masyarakat umum secara inklusif.",
-    photo: "src/assets/mageX.jpg",
+    photo: "/images/mageX.jpg",
   },
   {
     title: "Top 10 Finalis Mobile UI/UX Competition",
@@ -13,7 +13,7 @@ const achievements = [
     year: "Juli 2024",
     description:
       "Berhasil masuk dalam 10 besar finalis Mobile UI/UX Competition melalui perancangan desain UI/UX aplikasi mobile, mulai dari pembuatan wireframe, prototype interaktif, hingga desain antarmuka yang berfokus pada kemudahan navigasi dan pengalaman pengguna.",
-    photo: "src/assets/uiux.jpeg",
+    photo: "/images/uiux.jpeg",
   },
   {
     title: "Baparekraf Developer Day",
@@ -21,7 +21,7 @@ const achievements = [
     year: "Oktober 2024",
     description:
       "Mengikuti Baparekraf Developer Day, sebuah acara teknologi yang diselenggarakan oleh Dicoding bekerja sama dengan Baparekraf, yang menghadirkan wawasan dan pengetahuan seputar teknologi digital, pengembangan perangkat lunak, serta industri IT.",
-    photo: "src/assets/Baparekraf.jpg",
+    photo: "/images/Baparekraf.jpg",
   },
 ];
 
