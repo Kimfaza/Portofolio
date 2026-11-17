@@ -10,6 +10,7 @@ const projects = [
     description:
       "Platform e-commerce untuk memudahkan pembelian produk UMKM di Sleman",
     link: "View Project",
+    url: "#projects",
     image:
       "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=85",
     alt: "Tanaman hias dalam ruangan",
@@ -21,6 +22,7 @@ const projects = [
     description:
       "Aplikasi mobile untuk memudahkan pengguna dalam mencari lokasi dan navigasi",
     link: "View Project",
+    url: "#projects",
     image:
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85",
     alt: "Laptop di atas meja kerja",
@@ -32,9 +34,9 @@ const projects = [
     description:
       "Website untuk toko bunga yang menyediakan berbagai jenis bunga dan layanan",
     link: "View Project",
-    image:
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=85",
-    alt: "Kopi dan perlengkapan membuat kopi",
+    url: "https://florist-react.vercel.app",
+    image: "/images/hd.jpg",
+    alt: "Website Florist Latopia",
   },
 ];
 
@@ -87,7 +89,16 @@ function Projects() {
 
                 <p className="projects-description">{project.description}</p>
 
-                <a href="#projects" className="projects-link">
+                <a
+                  href={project.url}
+                  className="projects-link"
+                  target={project.url.startsWith("http") ? "_blank" : undefined}
+                  rel={
+                    project.url.startsWith("http")
+                      ? "noopener noreferrer"
+                      : undefined
+                  }
+                >
                   {project.link} <span aria-hidden="true">↗</span>
                 </a>
               </div>
